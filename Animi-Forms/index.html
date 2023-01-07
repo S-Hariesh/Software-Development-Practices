@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Anime-Forms</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body bgcolor=#1F1D2B>
+        <div>
+            <h1 align="left"> <img class="img1" src="https://logos-world.net/wp-content/uploads/2020/12/Batman-Logo.png">ANIMI-FORMS <img class="img2" src="https://logos-world.net/wp-content/uploads/2020/12/Batman-Logo.png"></h1>
+        </div>
+        <div>
+            <div style="float:left">
+                <form name="fun" onsubmit="return validate()">
+                    <lable class="color">ANIMI-Name</lable><br>
+                    <input class="box" id="name" type="text"><br><br><br>
+                    <lable class="color">ANIMI-(ORIGIN-COUNTRY)</lable><br>
+                    <select class="box" id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="India">India</option>
+                    </select><br><br><br>
+                    <lable class="color">No.of Episodes</lable><br>
+                    <input class="box" id="number" type="number"><br><br><br>
+                    <lable class="color">Your Raing</lable><br>
+                    <input class="box"id="rating" type="text"><br><br><br>
+                    <lable class="color">AWARDS</lable><br>
+                    <input class="box" id="awards" type="text"><br>
+            </div>
+            <div  style="float:right; margin-top: 80px;">
+                    <lable class="color">DESCRIPTION ABOUT THE ANIMI</lable><br><br>
+                    <input class="special" id="description" type="text"><br><br><br>
+                    <input class="submit" id="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
